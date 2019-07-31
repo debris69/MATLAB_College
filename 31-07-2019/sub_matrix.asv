@@ -1,9 +1,0 @@
-A= rand(5,5);
-
-x= 2; %
-y= 4; 
-
-Sub = A(x-1:x+1,y-1:y+1);
-disp(A);
-fprintf('Extracting Sub-matrix \n');
-disp(Sub);
