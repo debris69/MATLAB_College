@@ -1,7 +1,6 @@
 function [A] = sin_A(n)
-A = zeros(n);
-for i=1:n
-    for j=1:n
-        A(i,j) = sin(1/(i+j-1));
-    end
+A = 1:n;
+A = repmat(A,n,1);
+A = A + A';
+A = sin(1./A-1);
 end
