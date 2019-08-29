@@ -1,8 +1,7 @@
 function [A] = matret(n)
-A= zeros(n);
-for i = 1:n
-    A(i,:)= i;
-end
+A= 1:n;
+A= repmat(A,n,1);
+A= A';
 end
 
 
