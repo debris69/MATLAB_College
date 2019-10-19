@@ -8,5 +8,4 @@ teamA = (teamA.*2)+5;
 teamB = ((teamB - 500).*5)+15;
 teamC = ((teamC - 1000).*10)+40;
 
-disp([teamA,teamB,teamC]);
-
+disp([a',[teamA,teamB,teamC]']);
