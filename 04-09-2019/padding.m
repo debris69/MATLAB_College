@@ -11,6 +11,6 @@ row = randi([1,rows]);
 col = randi([1,cols]);
 
 sample = p(row-1:row+1,col-1:col+1);
-imshow(sample);
+disp(sample);
 
 
